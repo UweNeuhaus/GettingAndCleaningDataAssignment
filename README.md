@@ -22,7 +22,7 @@ working directory called "UCI HAR Dataset".
 How the script works:
 * The script first reads all necessary files of the original data: The list of
 features and the activity labels from the main folder, the sensor data, the 
-activities, and subject from both, the train and the test subfolder.
+activities, and subjects from both, the train and the test subfolder.
 * The training data and the test data are combined into one data frame 
 respectively using cbind(). The activities and subjects are thus added as new
 columns. Both data frames are then combined to a single data frame "data" 
