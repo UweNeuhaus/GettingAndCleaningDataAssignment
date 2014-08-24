@@ -6,18 +6,21 @@ first two variables are:
 
 **Activity**: Six different activities performed by the subjects. 
 
-Possible values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 
+Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 
 STANDING, LAYING.
 
 **Subject**: IDs of the 30 subjects performing the tests. 
 
-Possilbe values: integer values from 1 to 30.
+Values: Integer values from 1 to 30.
 
 Every observation is a combination of the first two variables. 
 
-The remaining variables are a subset of the original variables, namely the 66 
-mean and standard deviation variables of the sensor data. The table contains 
-for these variables the means for every activity/subject combination.
+**The remaining variables**: These variables are a subset of the original 
+variables, namely the 66 mean and standard deviation variables of the sensor 
+data. The table contains for these variables the means for every 
+activity/subject combination.
+
+Values: Normalized numeric values.
 
 ## Description of the sensor variables (from "features_info.txt"):
 
