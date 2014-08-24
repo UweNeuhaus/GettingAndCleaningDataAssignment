@@ -4,11 +4,14 @@ Codebook
 The data file "tidy_data.txt" contains 68 variables and 180 observations. The
 first two variables are:
 
-**Activity**:Six different activities performed by the subjects. Possible values
-are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+**Activity**: Six different activities performed by the subjects. 
 
-**Subject**: IDs of the 30 subjects performing the tests. Possilbe values: integer 
-values from 1 to 30.
+Possible values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 
+STANDING, LAYING.
+
+**Subject**: IDs of the 30 subjects performing the tests. 
+
+Possilbe values: integer values from 1 to 30.
 
 Every observation is a combination of the first two variables. 
 
