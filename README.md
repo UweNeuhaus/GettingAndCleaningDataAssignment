@@ -15,9 +15,9 @@ The original data set is available at this URL:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 Requirements:
-*It is assumed that the original data is available in a subfolder of the
+* It is assumed that the original data is available in a subfolder of the
 working directory called "UCI HAR Dataset".
-*The script requires the library "reshape" for data manipulation.
+* The script requires the library "reshape" for data manipulation.
 
 How the script works:
 * The script first reads all necessary files of the original data: The list of
