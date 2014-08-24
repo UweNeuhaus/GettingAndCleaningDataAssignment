@@ -4,10 +4,10 @@ Codebook
 The data file "tidy_data.txt" contains 68 variables and 180 observations. The
 first two variables are:
 
-Activities:Six different activities performed by the subjects. Possible values
+**Activity**:Six different activities performed by the subjects. Possible values
 are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
-Subject: IDs of the 30 subjects performing the tests. Possilbe values: integer 
+**Subject**: IDs of the 30 subjects performing the tests. Possilbe values: integer 
 values from 1 to 30.
 
 Every observation is a combination of the first two variables. 
@@ -16,7 +16,7 @@ The remaining variables are a subset of the original variables, namely the 66
 mean and standard deviation variables of the sensor data. The table contains 
 for these variables the means for every activity/subject combination.
 
-Description of the sensor variables (from "features_info.txt"):
+## Description of the sensor variables (from "features_info.txt"):
 
 The features selected for this database come from the accelerometer and 
 gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals 
